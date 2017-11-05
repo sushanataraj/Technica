@@ -1,0 +1,48 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+header {
+  padding: 0px 0;
+
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #708090;
+
+}
+
+header p, header a {
+  padding: 0 20px;
+  margin: 0;
+}
+
+nav p, nav a{
+    margin: 0;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    background-color: #708090;
+    color:white;
+}
+
+.jumbotron {
+  display: flex;
+  align-items: center;
+  background-image: url('https://static.pexels.com/photos/101063/pexels-photo-101063.jpeg');
+  background-size: cover;
+  color: #ffffff;
+  height: 500px;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+}
+
+section .row img {
+  margin: 0 0 30px;
+  width: 30px;
+}
+
+
