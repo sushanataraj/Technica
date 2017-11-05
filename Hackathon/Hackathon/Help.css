@@ -1,0 +1,41 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+    margin:0;
+    padding:0;
+    background:url("http://www.chogfoundation.org/org_files/481/images/rd1/cg_website-background1.jpg");
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+header {
+  padding: 0px 0;
+
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #708090;
+
+}
+
+header p, header a {
+  padding: 0 20px;
+  margin: 0;
+}
+
+nav p, nav a{
+    margin: 0;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    background-color: #708090;
+    color:white;
+}
+
+h1 {
+color:black;
+}
